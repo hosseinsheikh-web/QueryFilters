@@ -1,0 +1,34 @@
+{
+  "name": "hosseinsheikh-web/QueryFilters",
+  "description": "Return null, If not exist Class or Method or Property",
+  "keywords": ["laravel", "laravel5-package", "PHP", "Filter", "query filter", "sort"],
+  "license": "MIT",
+  "homepage": "https://github.com/hosseinsheikh-web/QueryFilters",
+  "authors": [
+    {
+      "name": "Hossein Sheikh",
+      "email": "hosseinsheikh.web@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "HosseinSheikh\\Test\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~8.0",
+    "orchestra/testbench": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "HosseinSheikh\\QueryFilters\\": "src"
+    }
+  },
+
+  "scripts": {
+    "test": "phpunit"
+  }
+}
