@@ -4,7 +4,6 @@ namespace HosseinSheikh\QueryFilters\Queries;
 
 class Name extends Filter
 {
-
     protected function applyFilters($builder)
     {
         $filterName = request($this->filterName());

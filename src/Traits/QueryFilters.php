@@ -1,5 +1,7 @@
 <?php
 
+namespace HosseinSheikh\QueryFilters\Traits;
+
 use Illuminate\Pipeline\Pipeline;
 
 trait QueryFilters
